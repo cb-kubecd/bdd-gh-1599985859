@@ -6,4 +6,4 @@ pipelineConfig:
         step: 
           sh: jx promote -b --all-auto --timeout 1h
           name: jx-promote
-          image: gcr.io/jenkinsxio/jx-promote:0.0.94
+          image: gcr.io/jenkinsxio/jx-cli:3.0.250
